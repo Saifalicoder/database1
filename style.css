@@ -1,0 +1,96 @@
+
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url("bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+.container {
+  background-color: rgb(219 219 217);
+  width: 80%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 20px;
+ 
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+
+  flex-direction: column;
+  margin-top: 39px;
+}
+.button {
+  border-radius: 19px;
+  width: 70px;
+  border: 2px solid black;
+  padding: 6px;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s;
+  color: black;
+  font-size: 13px;
+}
+.button:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+input {
+  padding: 3px;
+  margin: 10px 0px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+textarea {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 3px;
+  margin: 10px 0px;
+}
+
+.fst {
+  color: black;
+  font-size: 20px;
+  display: flex;
+}
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  margin: auto;
+}
+.errorColor {
+  color: #d30000;
+}
+.err{
+  margin: auto;
+  margin-top: 20px;
+  background-color: red;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  animation: changecolor 0.7s infinite;
+ 
+}
+.sub {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: green;
+}
+@keyframes changecolor{
+  0% {background-color: red;}
+  50% {background-color:white}
+  100% {background-color: red;}}
